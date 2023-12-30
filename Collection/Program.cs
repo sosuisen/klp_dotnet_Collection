@@ -1,16 +1,20 @@
-class Program
+namespace Collection
 {
-    static void Main()
+    class Program
     {
-        // List<string> toDoList = new List<string>();
-        // toDoList.Add("Write Monthly Report");
-        // toDoList.Add("Schedule Team Meeting");
-        // toDoList.Add("Update Project Plan");
-        List<string> toDoList = ["Write Monthly Report", "Schedule Team Meeting", "Update Project Plan"];
-
-        foreach (string item in toDoList)
+        static void Main()
         {
-            Console.WriteLine(item);
+            // List<string> toDoList = new();
+            // toDoList.Add("Write Monthly Report");
+            // toDoList.Add("Schedule Team Meeting");
+            // toDoList.Add("Update Project Plan");
+
+            List<string> toDoList = ["Write Monthly Report", "Schedule Team Meeting", "Update Project Plan"];
+
+            foreach (string item in toDoList)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
