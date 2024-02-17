@@ -7,7 +7,7 @@ toDoList.Remove("Update Project Plan");
 toDoList.Insert(1, "Prepare Presentation");
 toDoList[0] = "Write Weekly Report";
 
-foreach (string item in toDoList)
+foreach (var item in toDoList)
 {
     Console.WriteLine(item);
 }
