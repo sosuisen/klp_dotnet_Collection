@@ -1,4 +1,6 @@
-List<string> toDoList = ["Write Monthly Report", "Schedule Team Meeting", "Update Project Plan"];
+List<string> toDoList = ["Write Monthly Report",
+    "Schedule Team Meeting",
+    "Update Project Plan"];
 
 toDoList.Add("Review Budget");
 toDoList.Remove("Update Project Plan");
